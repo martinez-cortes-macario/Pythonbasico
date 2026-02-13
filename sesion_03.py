@@ -53,3 +53,11 @@ else:
 # jueves
 # viernes
 # martes
+# Practica 2
+
+contador = 0
+while contador < 3:
+    for dia in mi_lista_2:
+        if dia != "lunes":
+            print(dia)
+    contador += 1
